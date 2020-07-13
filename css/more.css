@@ -1,0 +1,33 @@
+.more {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+  width: 80%;
+}
+
+.more .more__make {
+  width: 100%;
+  background-color: rgb(223, 223, 223);
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.make__email,
+.make__schedule {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.make__schedule {
+  padding-left: 20px;
+}
+.more__make i {
+  font-size: 24px;
+  margin-right: 20px;
+}
+.make__email {
+  border-right: 1px solid rgb(175, 175, 175);
+}

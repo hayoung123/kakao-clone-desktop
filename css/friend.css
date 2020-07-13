@@ -1,0 +1,50 @@
+.chats {
+  position: absolute;
+  top: 130px;
+  left: 90px;
+  width: 80%;
+}
+.friend {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.friends__column {
+  display: flex;
+  align-items: center;
+}
+.friend__avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/05/17/51/dog-1123016_1280.jpg);
+  background-size: cover;
+  margin-right: 15px;
+}
+.friends__column .g-avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/05/17/51/dog-1123016_1280.jpg);
+  background-size: cover;
+  margin-right: 15px;
+}
+.friend__name {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.friend__preview,
+.friend__status,
+.friend__email {
+  font-size: 13px;
+}
+.friend__email {
+  opacity: 0.6;
+}
+.chats__timestamp {
+  font-size: 12px;
+  opacity: 0.6;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,30 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80%;
+  width: 70px;
+  padding: 30px 0;
+  background-color: rgb(223, 223, 223);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__lists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.nav__lists-item {
+  margin-bottom: 10px;
+  color: rgb(49, 49, 49);
+}
+.nav__lists:first-child .nav__lists-item {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.nav__lists:last-child .nav__lists-item {
+  font-size: 18px;
+}

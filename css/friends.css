@@ -1,0 +1,40 @@
+.friends {
+  position: absolute;
+  top: 130px;
+  left: 90px;
+  width: 80%;
+}
+.birth {
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+}
+.birth h5 {
+  font-size: 11px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.birth__icon {
+  border-radius: 10px;
+  background-color: rgb(182, 0, 91);
+  margin-right: 15px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.birth__info {
+  display: flex;
+  align-items: center;
+}
+.birth .birth__contents {
+  font-size: 13px;
+  margin-right: 10px;
+}
+.birth .birth__number {
+  font-size: 12px;
+  opacity: 0.6;
+}
