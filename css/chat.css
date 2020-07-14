@@ -1,5 +1,9 @@
+.chat-body {
+  background-color: #abc0d1;
+  height: 100%;
+}
 .chatting__header {
-  background-color: silver;
+  background-color: #9cb9d1;
   height: 100px;
   display: flex;
   align-items: center;
@@ -43,7 +47,6 @@
   margin-left: 10px;
 }
 .chat-screen .chat__messages {
-  border-top: 1px solid #f7f7f7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,11 +87,11 @@
   font-weight: 400;
 }
 .incoming-message .message__bubble {
-  background-color: rosybrown;
+  background-color: #ffffff;
   border-top-left-radius: 0;
 }
 .sent-message .message__bubble {
-  background-color: rgb(148, 126, 0);
+  background-color: #fee100;
   border-top-right-radius: 0;
 }
 .incoming-message .message__author {
@@ -130,4 +133,8 @@
 }
 .chat__write-icon i {
   margin-right: 20px;
+}
+.exit:active {
+  color: red;
+  opacity: 0.7;
 }
