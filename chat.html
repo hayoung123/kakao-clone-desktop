@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chatting | Kakao Clone 2020</title>
+    <script
+      src="https://kit.fontawesome.com/94d47ccc58.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="chat-body">
+    <header class="chatting__header">
+      <div class="chatting__header-column">
+        <img class="friend__avatar g-avatar" />
+        <div class="chat__status-bar">
+          <span>Dog</span>
+          <div class="chat__status-bar__icon">
+            <i class="fas fa-archive"></i>
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+      <div class="chatting__header-column">
+        <div class="chat__status-bar window">
+          <i class="far fa-window-minimize"></i>
+          <i class="far fa-square"></i>
+          <a href="index.html">
+            <i class="fas fa-times"></i>
+          </a>
+        </div>
+        <div class="chat__status-bar chat__status">
+          <i class="fas fa-bell"></i>
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <main class="chat-screen">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">Thusday,July 14, 2020</span>
+        <li class="incoming-message message">
+          <img class="message__avatar friend__avatar" />
+          <div class="message__content">
+            <span class="message__author">Cat</span>
+            <span class="message__bubble">
+              Hey! How have you been!
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__bubble">
+              I'm so nice! How are you?
+            </span>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img class="message__avatar friend__avatar" />
+          <div class="message__content">
+            <span class="message__author">Cat</span>
+            <span class="message__bubble">
+              I'm good! I miss you!
+            </span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <div class="message__content">
+            <span class="message__bubble">
+              Me too! see you soon!
+            </span>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <div class="chat__write-container">
+      <div class="chat__write-column">
+        <input
+          type="text"
+          placeholder="Send message"
+          class="chat__write chat__write-input"
+        />
+        <button class="chat__send-btn">
+          전송
+        </button>
+      </div>
+      <div class="chat__write-icon">
+        <i class="far fa-smile-wink"></i>
+        <i class="fas fa-paperclip"></i>
+        <i class="fas fa-phone"></i>
+        <i class="far fa-calendar-check"></i>
+      </div>
+    </div>
+  </body>
+</html>

@@ -22,7 +22,7 @@
   background-size: cover;
   margin-right: 15px;
 }
-.friends__column .g-avatar {
+.g-avatar {
   height: 50px;
   width: 50px;
   border-radius: 10px;

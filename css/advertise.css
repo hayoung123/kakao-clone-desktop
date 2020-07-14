@@ -1,0 +1,22 @@
+.advertise {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+.advertise__avatar {
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #fcfcfc;
+  border-left: none;
+  border-right: none;
+}
+.advertise img {
+  height: 100px;
+  width: 400px;
+}
