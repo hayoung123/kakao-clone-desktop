@@ -31,3 +31,71 @@
 .make__email {
   border-right: 1px solid rgb(175, 175, 175);
 }
+.more__icons {
+  margin-top: 50px;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.more__icons-column {
+  height: 50px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.more__icons i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.more__icons span {
+  font-size: 15px;
+}
+
+.more__tips {
+  margin-top: 30px;
+  position: relative;
+}
+.tips__tip {
+  padding: 10px 10px;
+  height: 40px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+.tips__tip span:first-child {
+  font-weight: 600;
+  margin-right: 15px;
+}
+.tips__tip span:last-child {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.tip-caption {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  opacity: 0;
+  animation: 5s overflow infinite ease-in-out;
+}
+
+@keyframes overflow {
+  0%,
+  10%,
+  90% {
+    transform: none;
+    opacity: 0;
+  }
+  30%,
+  60% {
+    transform: none;
+    opacity: 1;
+  }
+}
