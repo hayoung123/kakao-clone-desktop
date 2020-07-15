@@ -112,7 +112,6 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  opacity: 0.5;
 }
 .chat__write-column {
   height: 100%;
@@ -127,14 +126,24 @@
   width: 90%;
 }
 .chat__send-btn {
+  background-color: #fee100;
+  border: 1px solid #abc0d1;
   height: 40%;
   width: 50px;
   font-size: 14px;
+  opacity: 0.5;
 }
 .chat__write-icon i {
   margin-right: 20px;
+  opacity: 0.5;
 }
 .exit:active {
   color: red;
   opacity: 0.7;
+}
+.chat__write-input:focus ~ .chat__send-btn {
+  opacity: 0.9;
+}
+.chat__write-icon i:hover {
+  color: red;
 }

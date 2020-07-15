@@ -22,9 +22,16 @@
   color: rgb(49, 49, 49);
 }
 .nav__lists:first-child .nav__lists-item {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 15px;
+}
+.nav__lists-item {
+  padding: 10px 20px;
 }
 .nav__lists:last-child .nav__lists-item {
   font-size: 18px;
+  padding: 5px 20px;
+}
+.nav .nav__lists-item:hover {
+  background-color: rgb(192, 192, 192);
 }

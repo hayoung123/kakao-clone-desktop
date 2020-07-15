@@ -100,3 +100,9 @@
     opacity: 1;
   }
 }
+.more__icons-column i,
+.make__email,
+.make__schedule,
+.header__icon i {
+  cursor: pointer;
+}
